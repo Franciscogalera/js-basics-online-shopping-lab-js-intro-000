@@ -1,7 +1,13 @@
 var cart = [];
 
-function addToCart(){
-
+function getCart(){
+  return cart;
+}
+function addToCart(item){
+  var price = Math.random()*10;
+  cart.push({itemName: item, itemPrice: price});
+  console.log(item + 'has been added to your cart.');
+  return cart;
 }
 
 function setCart(newCart) {
