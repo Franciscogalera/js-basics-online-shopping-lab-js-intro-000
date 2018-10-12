@@ -1,4 +1,8 @@
-var cart;
+var cart = [];
+
+function addToCart(){
+
+}
 
 function setCart(newCart) {
   cart = newCart;
